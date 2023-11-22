@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Shokudo Wisdom Quote Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a simple quote generator themed around Shokudo, a restaurant in Honolulu, Hawaii. Built using React and Axios for API requests, it fetches and displays advice quotes from the `adviceslip.com` API.
 
-## Available Scripts
+## Features
+- Fetches random advice quotes from an external API.
+- Displays the quote in a styled card format.
+- Includes a button to fetch new quotes dynamically.
 
-In the project directory, you can run:
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making HTTP requests.
 
-### `npm start`
+## Setup and Installation
+1. Ensure you have Node.js and npm installed.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory and run `npm install` to install dependencies.
+4. Start the application using `npm start`. The app will run on `localhost:3000`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+- The main page displays a random advice quote.
+- Click the **"Shokudo Wisdom!"** button to fetch and display a new quote.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Note
+- This project is for educational purposes and is themed after the Shokudo Restaurant in Honolulu, Hawaii.
+- The advice quotes are fetched from an external API and are not related to the restaurant.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- [Advice Slip API](https://api.adviceslip.com/) for providing the advice quotes.
+- [React](https://reactjs.org/) community for the framework.
+- Shokudo Restaurant for the thematic inspiration.
+- JavaScript Mastery for the YouTube tutorial.
