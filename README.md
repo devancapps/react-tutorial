@@ -1,5 +1,8 @@
 # Shokudo Wisdom Quote Generator
 
+![Screenshot 2023-11-21 at 9 04 30 PM](https://github.com/devancapps/shokudo-wisdom/assets/145359970/d5c46df0-9b27-4f47-b41e-2b2d89f695d8)
+
+
 ## Overview
 This project is a simple quote generator themed around Shokudo, a restaurant in Honolulu, Hawaii. Built using React and Axios for API requests, it fetches and displays advice quotes from the `adviceslip.com` API.
 
